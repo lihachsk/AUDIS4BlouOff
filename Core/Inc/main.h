@@ -8,7 +8,7 @@ extern "C" {
 //#include "stm32f103x6.h"
 #include "stm32f10x.h"
 #include "rcc.h"
-#include "blinking.h"
+#include "can.h"
 
 #ifdef __cplusplus
 }
