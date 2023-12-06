@@ -2,12 +2,15 @@
     "configurations": [
         {
             "name": "Win32",
+            "compilerPath": "C:/dev/arm-win/bin/arm-none-eabi-gcc.exe",
             "includePath": [
                 "../../arm-win/lib/gcc/arm-none-eabi/13.2.1/include",
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/Core/Inc",
                 "${workspaceFolder}/Drivers/CMSIS/Core/Include",
-                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F1xx/Include",
+                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F10x/inc",
+                "${workspaceFolder}/Core/Inc"
             ],
             "defines": [
                 "_DEBUG",

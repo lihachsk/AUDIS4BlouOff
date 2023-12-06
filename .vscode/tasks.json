@@ -19,7 +19,7 @@
             "label": "Flash",
             "group": "build",
             "type": "shell",
-            "command": "wsl make stflash; echo Finished",
+            "command": "wsl make;st-flash --reset write ./build/AUDIS4BlouOff.bin 0x08000000; echo Finished",
             "args": []
         }
     ]

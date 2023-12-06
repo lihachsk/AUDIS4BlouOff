@@ -37,30 +37,12 @@ BUILD_DIR = build
 # C sources
 C_SOURCES =  \
 Core/Src/main.c \
-Core/Src/stm32f1xx_it.c \
-Drivers/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.c \
-Drivers/CMSIS/Device/ST/STM32F10x/src/stm32f10x_adc.c \
-Drivers/CMSIS/Device/ST/STM32F10x/src/stm32f10x_bkp.c \
+Core/Src/blinking.c \
+Core/Src/can.c \
+Drivers/CMSIS/Device/ST/STM32F10x/system_stm32f10x.c \
 Drivers/CMSIS/Device/ST/STM32F10x/src/stm32f10x_can.c \
-Drivers/CMSIS/Device/ST/STM32F10x/src/stm32f10x_cec.c \
-Drivers/CMSIS/Device/ST/STM32F10x/src/stm32f10x_crc.c \
-Drivers/CMSIS/Device/ST/STM32F10x/src/stm32f10x_dac.c \
-Drivers/CMSIS/Device/ST/STM32F10x/src/stm32f10x_dbgmcu.c \
-Drivers/CMSIS/Device/ST/STM32F10x/src/stm32f10x_dma.c \
-Drivers/CMSIS/Device/ST/STM32F10x/src/stm32f10x_exti.c \
-Drivers/CMSIS/Device/ST/STM32F10x/src/stm32f10x_flash.c \
-Drivers/CMSIS/Device/ST/STM32F10x/src/stm32f10x_fsmc.c \
-Drivers/CMSIS/Device/ST/STM32F10x/src/stm32f10x_gpio.c \
-Drivers/CMSIS/Device/ST/STM32F10x/src/stm32f10x_i2c.c \
-Drivers/CMSIS/Device/ST/STM32F10x/src/stm32f10x_iwdg.c \
-Drivers/CMSIS/Device/ST/STM32F10x/src/stm32f10x_pwr.c \
 Drivers/CMSIS/Device/ST/STM32F10x/src/stm32f10x_rcc.c \
-Drivers/CMSIS/Device/ST/STM32F10x/src/stm32f10x_rtc.c \
-Drivers/CMSIS/Device/ST/STM32F10x/src/stm32f10x_sdio.c \
-Drivers/CMSIS/Device/ST/STM32F10x/src/stm32f10x_spi.c \
-Drivers/CMSIS/Device/ST/STM32F10x/src/stm32f10x_tim.c \
-Drivers/CMSIS/Device/ST/STM32F10x/src/stm32f10x_usart.c \
-Drivers/CMSIS/Device/ST/STM32F10x/src/stm32f10x_wwdg.c \
+Drivers/CMSIS/Device/ST/STM32F10x/src/stm32f10x_gpio.c \
 Drivers/CMSIS/Device/ST/STM32F10x/src/misc.c
 
 # ASM sources

@@ -10,7 +10,24 @@
         "limits.h": "c",
         "cdefs.h": "c",
         "stm32f10x.h": "c",
-        "stm32f10x_rcc.h": "c"
+        "stm32f10x_rcc.h": "c",
+        "cmsis_gcc.h": "c",
+        "blinking.h": "c",
+        "stdio.h": "c",
+        "stm32f10x_gpio.h": "c",
+        "cantst.h": "c",
+        "stm32f10x_can.h": "c",
+        "misc.h": "c",
+        "can.h": "c",
+        "cstdio": "c",
+        "stm32f10x_bkp.h": "c",
+        "stm32f10x_adc.h": "c",
+        "rcc.h": "c",
+        "usb_lib.h": "c",
+        "hw_config.h": "c",
+        "usb_type.h": "c",
+        "platform_config.h": "c"
     },
-    "C_Cpp.errorSquiggles": "disabled"
+    "cortex-debug.gdbPath": "C:/dev/arm-win/bin/arm-none-eabi-gdb.exe",
+    "cortex-debug.stutilPath": "C:/Program Files/stlink/build-mingw/bin/st-util.exe",
 }
